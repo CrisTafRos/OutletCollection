@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OutletCollection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duy-15-gYf">
+                                <rect key="frame" x="0.0" y="94" width="414" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="clb-ht-fvo"/>
+                                </constraints>
+                                <state key="normal" title="Materias">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="desplegarOpciones:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vof-0p-6ee"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ye1-WR-D7n">
+                                <rect key="frame" x="0.0" y="134" width="414" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="o8i-qe-ux6"/>
+                                </constraints>
+                                <state key="normal" title="Arquitectura de Computadoras">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onl-hH-yLI">
+                                <rect key="frame" x="0.0" y="174" width="414" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dVN-eV-l8l"/>
+                                </constraints>
+                                <state key="normal" title="Ingeniería de Software">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wk8-Av-qVr">
+                                <rect key="frame" x="0.0" y="214" width="414" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="iBa-kI-ZcF"/>
+                                </constraints>
+                                <state key="normal" title="Planeación de Proyectos Informáticos">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8p-ge-89h">
+                                <rect key="frame" x="0.0" y="254" width="414" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="97m-n0-KJm"/>
+                                </constraints>
+                                <state key="normal" title="Web 2.0">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPh-r1-OHK">
+                                <rect key="frame" x="0.0" y="294" width="414" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="wIq-7r-9mi"/>
+                                </constraints>
+                                <state key="normal" title="Entorno de las Organizaciones">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wk8-Av-qVr" secondAttribute="trailing" id="2jJ-l0-nU1"/>
+                            <constraint firstItem="Wk8-Av-qVr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Ui-og-7UP"/>
+                            <constraint firstItem="H8p-ge-89h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FC2-zq-PbB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ye1-WR-D7n" secondAttribute="trailing" id="FhA-pP-EcI"/>
+                            <constraint firstItem="gPh-r1-OHK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fmv-me-4n5"/>
+                            <constraint firstItem="gPh-r1-OHK" firstAttribute="top" secondItem="H8p-ge-89h" secondAttribute="bottom" id="Kyw-Xn-yB3"/>
+                            <constraint firstItem="duy-15-gYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="QxB-q5-6o3"/>
+                            <constraint firstItem="duy-15-gYf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SAv-Qq-wnL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="onl-hH-yLI" secondAttribute="trailing" id="Sat-jT-Fcd"/>
+                            <constraint firstItem="Wk8-Av-qVr" firstAttribute="top" secondItem="onl-hH-yLI" secondAttribute="bottom" id="TeT-8G-ief"/>
+                            <constraint firstItem="onl-hH-yLI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ULd-TC-4ni"/>
+                            <constraint firstItem="ye1-WR-D7n" firstAttribute="top" secondItem="duy-15-gYf" secondAttribute="bottom" id="VD7-6b-1Q8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gPh-r1-OHK" secondAttribute="trailing" id="jt4-MG-Oj2"/>
+                            <constraint firstItem="ye1-WR-D7n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lv1-IF-fD8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="duy-15-gYf" secondAttribute="trailing" id="mT2-X5-PDP"/>
+                            <constraint firstItem="H8p-ge-89h" firstAttribute="top" secondItem="Wk8-Av-qVr" secondAttribute="bottom" id="wqR-k5-U99"/>
+                            <constraint firstItem="onl-hH-yLI" firstAttribute="top" secondItem="ye1-WR-D7n" secondAttribute="bottom" id="xlj-Hr-bmq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H8p-ge-89h" secondAttribute="trailing" id="yxA-2d-xQh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="botonesInferiores" destination="ye1-WR-D7n" collectionClass="NSMutableArray" id="pWu-3r-Gbc"/>
+                        <outletCollection property="botonesInferiores" destination="onl-hH-yLI" collectionClass="NSMutableArray" id="OLZ-4w-f1n"/>
+                        <outletCollection property="botonesInferiores" destination="Wk8-Av-qVr" collectionClass="NSMutableArray" id="biZ-E3-qwP"/>
+                        <outletCollection property="botonesInferiores" destination="H8p-ge-89h" collectionClass="NSMutableArray" id="qnO-Mg-nSU"/>
+                        <outletCollection property="botonesInferiores" destination="gPh-r1-OHK" collectionClass="NSMutableArray" id="RFe-Lo-yfk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
